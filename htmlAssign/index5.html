@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task-5</title>
+  <style>
+    label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <h2 style="color: blue; text-align: center;">Registration Form</h2>
+  <form >
+    <div style="display: table-row;">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" placeholder="Your first name..">
+    </div>
+    <div style="display: table-row;">
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" placeholder="Your last name..">
+    </div>
+    <div style="display: table-row;">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email..">
+    </div>
+    <div style="display: table-row;">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Your password..">
+    </div>
+    <div style="display: table-row;">
+      <label for="confirmPassword">Re-enter Password:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password..">
+    </div>
+    <div style="display: table-row;">
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+    </div>
+    <div style="display: table-row;">
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Your phone number..">
+    </div>
+    <div style="display: table-row;">
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" placeholder="Your age..">
+    </div>
+    <div style="display: table-row;">
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" style="height:200px" placeholder="Your address.."></textarea>
+    </div>
+    <div style="display: table-row;">
+      <label for="languages">Languages Known:</label><br>
+      <input type="checkbox" id="english" name="languages" value="english">
+      <label for="english">English</label><br>
+      <input type="checkbox" id="kannada" name="languages" value="kannada">
+      <label for="kannada">Kannada</label><br>
+      <input type="checkbox" id="hindi" name="languages" value="hindi">
+      <label for="hindi">Hindi</label><br>
+      <input type="checkbox" id="telugu" name="languages" value="telugu">
+      <label for="telugu">Telugu</label>
+    </div>
+    <div style="display: table-row;">
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="">Choose your country</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+      </select>
+    </div>
+    <div style="display: table-row;">
+      <label>
+        <input type="checkbox" name="terms" required> I hereby declare all the given details are true
+      </label>
+    </div>
+    <div style="display: table-row;">
+        <p> Login to <a href="#">Ethnus</a> website</p>
+    </div>
+    <div style="display: table-row;">
+      <button type="submit">Register</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+</body>
+</html>

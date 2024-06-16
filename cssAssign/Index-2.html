@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>csstask-2</title>
+    <style>
+        /* .navbar{
+    height: 150px;
+    width: 150px;
+    border: solid;
+} */
+
+.vertical{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+      
+    top: 100px; 
+    
+  }
+  .horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+    position: fixed;  
+   
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #cccccc;
+  }
+  ul {
+    list-style-type: none;
+  }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Vertical Navigation</h2>
+    <nav >
+        <div class="navbar">
+            
+                <ul class="vertical">
+                    <li style="background-color: gold;"><a href="#">Home</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">Bootstrap</a></li>
+                  </ul>
+           
+
+        </div>
+       
+
+  </div>
+  <div class="container">
+  </nav>
+  <h2>Horizontal navbar</h2>
+  <nav>
+      <div class="navbar" style="background-color: aqua;">
+          <ul style="display: flex; justify-content: space-between;" class="Horizontal">
+              <li style="background-color: gold;"><a href="#">Home</a></li>
+              <li><a href="#">Java</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">BootStramp</a></li>
+              
+          </ul>
+      </div>
+
+  </nav>
+
+  </div>
+    
+   
+</body>
+</html>
